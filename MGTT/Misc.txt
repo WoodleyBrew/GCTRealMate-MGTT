@@ -1,0 +1,178 @@
+############################################################################
+# Place a "!" in front of a codes name to disable it. Remove "!" to enable #
+# For Example: "!XYZ Code [Vamp]" will disable XYZ code                    #
+############################################################################
+
+##################################################
+!Unlock Everything [Mori]
+##################################################
+* 0222A3CC 0000FFFF
+* 0222A3CE 00000CFF
+* 0022A3D0 000000FF
+* 00234A72 0000003F
+
+##################################################
+!Memory Card Skip [Mori]
+##################################################
+* 042D7DC4 00000002
+
+##################################################
+!Replace Lakitu Valley Music with Unused Song [Vamp]
+##################################################
+* 04137A74 00000023
+* 04137A90 00000023
+* 04137AAC 00000023
+* 04137AC8 00000023
+* 04137B00 00000023
+
+##################################################
+!Disable Boo Messagse [Vamp]
+##################################################
+* 02523E32 00000000
+
+##################################################
+!Disable Run Line & Stopping Point in Training Mode [Vamp]
+##################################################
+* 004F205D 00000001
+* 004F7261 00000001
+* 004FC465 00000001
+* 00501669 00000001
+
+##################################################
+!Access Unused Driving Range Hole [Vamp]
+##################################################
+* 044CCD60 00000321
+
+##################################################
+!Access Side Games Approach Green [Vamp]
+##################################################
+* 044CCD60 00000322
+
+##################################################
+!Hide GUI [Vamp]
+##################################################
+* 20413DCC 4182000C
+* 0441e3d4 60000000
+* 04423fa4 60000000
+* 04413DCC 4800000C
+* 04413ff8 71200400
+* E2000001 00000000
+* c0000000 00000008
+* 9421ff80 bc61000c
+* 3fe0804e 63fe691d
+* 63ffcc84 881f0000
+* 70000008 41820010
+* 38000000 981e0000
+* 4800000c 38000001
+* 981e0000 b861000c
+* 38210080 4e800020
+
+##################################################
+!Night Mode [Vamp]
+##################################################
+* 204463c4 386304bd
+* 044463c4 386307d3
+* 04446358 386307d3
+* 0444637c 386307d3
+* 04446168 386307d3
+* 04446184 386307d3
+* 044463b8 386307d3
+* 044461a4 386307d3
+* 0444632c 386307d3
+* 04446208 386307d3
+* 0444624c 38600895
+* 04446308 38600895
+* 044463d4 386307d5
+* 04446368 386307d5
+* 044461b4 386307d5
+* 0444633c 386307d5
+* 0444638c 48000054
+* 04446394 4800004c
+* 044463a0 48000040
+* 04446318 38630897
+* 044425d8 48000074
+* 04446494 2c030001
+* 04442700 3c00101f
+* 04442704 600020ff
+* c2444c4c 0000000e
+* 9421fff0 28030000
+* 41820058 38630008
+* 7c6903a6 4e800421
+* 80630038 80830000
+* 28040000 4182003c
+* 3863fffc 5486c63e
+* 5485463e 5487063e
+* 1cc600c0 50c7042e
+* 5087fa5e 1ca50003
+* 54a5a814 50a7004e
+* 94e30004 80830004
+* 28040000 4082ffd0
+* 38210010 801e5f24
+* 60000000 00000000
+* e2000001 00000000
+* 044D28D0 30607F00
+* 044D28D4 204490FF
+
+##################################################
+!Fireworks [Vamp]
+##################################################
+* 04445b78 60000000
+
+##################################################
+!Scorecard Animation [Vamp]
+##################################################
+* 0447612c 38800003
+
+##################################################
+!Tournament Greens in Sidegames [Mori]
+##################################################
+* 204E66B8 00000009
+* 004E66CC 00000001
+* E2000001 00000000
+
+##################################################
+!Skip Intro [Mori]
+##################################################
+* 040180E0 60000000
+* 204202D0 4bbe3515
+* 044202D0 60000000
+* e2000001 00000000
+
+--------------------------------------------------
+
+##################################################
+# Explanation's
+#
+# Memory Card Skip
+#	Skips the memory card prompt on the title screen. Will also cause the game to not be able to save. 	
+#
+# Disable Boo Messagse
+#	This code disables the Boo messages that get displayed when the gameplay is idled during a round. 	
+#
+# Disable Run Line & Stopping Point in Training Mode
+#	This code removes the red simulation line representing the run line and stopping point that is only seen in training mode.
+#
+# Access Unused Driving Range Hole
+#	This code replaces Lakitu Valley’s first hole with the unused driving range hole.
+#
+# Access Side Games Approach Green
+#	his code replaces Lakitu Valley’s first hole with the approach green seen in the side games.
+#
+# Hide GUI
+#	This code allows the user to hide the GUI by pressing the Y button.	
+#
+# Night Mode
+#	This code overlays the background with the PCG 18 starry night sky + decreased lighting on most holes.
+#
+# Fireworks
+#	This code overlays the background with the PCG 18 fireworks effect. Can be combined with Night Mode.
+#
+# Scorecard Animation
+# 	Change last number, 0-5 for different animations
+# 	5 = Screen wipe
+#	4 = Card break apart
+#	3 = Card melt
+#	2 = bad
+#	1 = bad
+#	0 = Split & shrink
+##################################################

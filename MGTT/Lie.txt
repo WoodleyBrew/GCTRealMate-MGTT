@@ -1,0 +1,139 @@
+############################################################################
+# Place a "!" in front of a codes name to disable it. Remove "!" to enable #
+# For Example: "!XYZ Code [Vamp]" will disable XYZ code                    #
+############################################################################
+
+##################################################
+!RNG% Range [Vamp]
+##################################################
+* 20416cd4 9421ffe8
+* 04416cd4 38600000
+* 04416cd8 4e800020
+
+##################################################
+!All Fast Fairway  [Vamp]
+##################################################
+* 04435E74 38000011
+
+##################################################
+!Crater Red Zone Finder  [Vamp]
+##################################################
+* 2041C84C 3D20804E
+* C241C848 0000000B
+* 9421FFB0 BDC10008
+* 7C6E1B78 7C8F2378
+* 7CB02B78 7CD13378
+* 7E6902A6 3E408001
+* 62521B88 7E4903A6
+* 386001BF 388000FF
+* 4E800421 7DC37378
+* 7DE47B78 7E058378
+* 7E268B78 7F4903A6
+* B9C10008 38210050
+* 38630001 00000000
+* E2000001 00000000
+
+##################################################
+!All Fairway is Hazard  [Vamp]
+##################################################
+* 044CBBEC 804C8EB0
+* 044CBC14 804C8F9C
+* 044CB64C 804C8EB0
+* 044CB674 804C8F9C
+
+##################################################
+!Use JP Lies in NA version  [Vamp]
+##################################################
+* 004db300 00000058
+* 004db302 00000000
+* 004db304 00000054
+* 004db306 00000000
+* 004db311 00000014
+* 004db312 00000006
+* 004db313 00000000
+* 004db314 00000046
+* 004db315 00000016
+* 004db316 00000008
+* 004db317 00000000
+* 004db319 00000016
+* 004db31a 0000000a
+* 004db31b 00000000
+* 004db31c 00000040
+* 004db31d 00000018
+* 004db31e 0000000c
+* 004db31f 00000000
+* 004db322 00000005
+* 004db323 00000000
+* 004db325 00000015
+* 004db326 00000008
+* 004db327 00000000
+* 004db329 00000015
+* 004db32a 00000008
+* 004db32b 00000000
+* 004db32d 00000018
+* 004db32e 0000000b
+* 004db32f 00000000
+
+##################################################
+!Fairway Lie %  [Vamp]
+#
+# Unedited code is below, an Example Code 1% Clean, 1% Dirt, 2% Mud, 96% Crater is in proper code area
+#
+# 044DB300 xxxxxxxx
+# 044DB304 xxxxxxxx
+# 044DB308 xxxxxxxx
+# 044DB30C xxxxxxxx
+# 044DB310 xxxxxxxx
+# 044DB314 xxxxxxxx
+# 044DB318 xxxxxxxx
+# 044DB31C xxxxxxxx
+# 044DB320 xxxxxxxx
+# 044DB324 xxxxxxxx
+# 044DB328 xxxxxxxx
+# 044DB32C xxxxxxxx
+# 
+##################################################
+* 044DB300 01010260
+* 044DB304 01010260
+* 044DB308 01010260
+* 044DB30C 01010260
+* 044DB310 01010260
+* 044DB314 01010260
+* 044DB318 01010260
+* 044DB31C 01010260
+* 044DB320 01010260
+* 044DB324 01010260
+* 044DB328 01010260
+* 044DB32C 01010260
+
+--------------------------------------------------
+
+##################################################
+# Explanation's
+#
+# RNG% Range
+# 	All Lies are set to experience the same range of RNG+-%
+# 	2nd line, last digits control RNG range. Current code example is set to 0%	
+#
+# All Fast Fairway
+#	This code makes all collisions in the game become Fast Fairway, This includes rocks, trees, water, bunkers, etc. 
+#
+# Putter Simulation Line
+#	This code will play a thwomp sound when the landing spot is hovering over the “crater red zone.” 
+#	The crater red zone is an area that is roughly 250 yards from the selected tee box, (and a second area roughly 70 yards from the green on Par 5s) that has an 
+#	increased chance of bad lies due to the game designating those areas as common landing areas.
+#
+# All Fairway is Hazard
+#	This code makes landing on fairway or fast fairway a hazard. 
+#	The golfer will incur a one stroke penalty and be dropped in the nearest spot closest to where the ball entered the fairway,
+#
+# Use JP Lies in NA Version
+#	JP lies have no crater on fairway
+#
+# Fairway Lie %
+#	This code allows the user to customize  fairway lie percentages.
+#	Every 2 lines of code corresponds to each of the main 6 courses in order (1st line is standard lie%, 2nd is the ‘red ring’ lie%)
+#	The right column can be edited to match desired lie chances for standard fairway and ‘red ring’ fairway. 
+#	The percents are hexadecimal value, every 2 values correspond to:
+#	Clean fairway > Dirt fairway > Muddy fairway > Crater	
+##################################################

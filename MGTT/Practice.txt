@@ -1,0 +1,355 @@
+############################################################################
+# Place a "!" in front of a codes name to disable it. Remove "!" to enable #
+# For Example: "!XYZ Code [Vamp]" will disable XYZ code                    #
+############################################################################
+
+##################################################
+!Wind/Rain Simulation Line [Vamp]
+##################################################
+* 2042495C 3C608050
+* 04410294 38000000
+* 04411E2C 38000000
+* 04413F68 38000000
+* c242495c 00000041
+* 9421ffac bdc1000c
+* 7fe802a6 93e10008
+* 7c7f1b78 7c9e2378
+* 7cbd2b78 3dc08000
+* 61ce01b0 3ee08050
+* 62f7272c 92ee0004
+* 3de0804e 61efcb84
+* 820f01d4 2c10000c
+* 41810130 a00f0100
+* 5400e7fe 2c000001
+* 40820120 3f20804e
+* 6333ce70 63395be4
+* 8b390d17 1f395204
+* 7f399a14 932e000c
+* 806e0000 2c030000
+* 40a2001c 38602b78
+* 3f808001 639ca670
+* 7f8803a6 4e800021
+* 906e0000 8a6e000a
+* 2c130001 41820014
+* 8a7951ed 9a6e0009
+* 3a600001 9a6e000a
+* 8b0e0008 2c180001
+* 41820024 3f408007
+* 635a27fc 808e0004
+* 38a02b78 7f4803a6
+* 4e800021 3b000001
+* 9b0e0008 906e0000
+* 3e208041 623168fc
+* 7e2803a6 4e800021
+* 3ea00030 62b5a0a0
+* 82ce0004 92b60004
+* 3a600000 9a7951ed
+* 38000000 3e008050
+* 98105301 3e408041
+* 62524da4 380040a2
+* b0120000 7c00906c
+* 7c0097ac 806e0000
+* 832e000c 80990008
+* 388400b4 620552ac
+* 38c00008 3c008041
+* 60005790 7c0803a6
+* 4e800021 38004182
+* b0120000 7c00906c
+* 7c0097ac 38000001
+* 98105301 48000078
+* 8a6e000a 2c130001
+* 40820018 832e000c
+* 8a6e0009 9a7951ed
+* 3a600000 b26e0009
+* 806e0000 3f608001
+* 637ba85c 7f6803a6
+* 4e800021 38000000
+* 900e0000 980e0008
+* 3e408041 62524da4
+* 380040a2 b0120000
+* 7c00906c 7c0097ac
+* 38000000 3e008050
+* 98105301 3ea080be
+* 62b5c8c0 82ce0004
+* 92b60004 7fe3fb78
+* 7fc4f378 7fa5eb78
+* 83e10008 7fe802a6
+* b9c1000c 38210054
+* 3c608050 00000000
+* E2000001 00000000
+
+##################################################
+!Hook/Slice Simulation Line [Vamp]
+##################################################
+* 20413DCC 4182000C
+* 04413DCC 4800000C
+* 04413ff8 71200400
+* E2000001 00000000
+* c0000000 00000039
+* 9421ff80 bc61000c
+* 3fe0804e 63ffcc84
+* 881f0000 70000008
+* 4182011c 801f00c4
+* 2c00000b 41820110
+* 3fc08000 63de01c0
+* 881e0000 2c000001
+* 41820070 3fc0804c
+* 63de6d48 3c006000
+* 901e0000 7c00f06c
+* 7c00f7ac 3fc08046
+* 63dee220 901e0000
+* 7c00f06c 7c00f7ac
+* 3bdeeae8 38000000
+* b01e0002 7c00f06c
+* 7c00f7ac 3bdeff78
+* b01e0002 7c00f06c
+* 7c00f7ac 3fc08041
+* 63de02e4 3c004800
+* 60000028 901e0000
+* 7c00f06c 7c00f7ac
+* 3f808000 639c01c0
+* 881c0001 2c000000
+* 4181006c 3fc08052
+* 63de3cac 83be0000
+* 881f000b 70190001
+* 41820020 2c1dffc4
+* 41820038 3bbdffff
+* 93be0000 38000005
+* 981c0001 48000024
+* 70000002 4182001c
+* 2c1d0010 41820014
+* 3bbd0001 93be0000
+* 38000005 981c0001
+* 3fc08000 63de01c0
+* 38000001 981e0000
+* 4800009c 8b7c0001
+* 3b7bffff 9b7c0001
+* 4800008c 3fc08046
+* 63dee220 3c004081
+* 600001fc 901e0000
+* 7c00f06c 7c00f7ac
+* 3bdeeae8 38000005
+* b01e0002 7c00f06c
+* 7c00f7ac 3bdeff78
+* b01e0002 7c00f06c
+* 7c00f7ac 3fc08041
+* 63de02e4 3c007009
+* 60000001 901e0000
+* 7c00f06c 7c00f7ac
+* 801f00c4 2c000009
+* 41810014 3fc08052
+* 63de3cac 38000000
+* 901e0000 3fc08000
+* 63de01c0 38000000
+* 981e0000 b861000c
+* 38210080 4e800020
+
+##################################################
+!Putter Simulation Line [Vamp]
+##################################################
+* 20410298 7c7f1b78
+* 04411E2C 38000000
+* 04413F68 38000000
+* 04410F40 60000000
+* 04425FB4 48000018
+* c2410298 00000041
+* 9421fff0 bfc10008
+* 3fe08000 63ff01bb
+* 800301d4 2c00000d
+* 40820108 38000000
+* 90030220 a0030100
+* 5400e7fe 2c000001
+* 408200f0 881f0000
+* 2c000000 408201bc
+* 3fc08041 63de02e8
+* 3c004800 60000024
+* 901e0000 7c00f06c
+* 7c00f7ac 3bde43d0
+* 3c00fd08 60004028
+* 901e0000 7c00f06c
+* 7c00f7ac 3bde1594
+* 3c003c00 6000df3f
+* 901e0000 3c006000
+* 600000e8 901e0004
+* 7c00f06c 7c00f7ac
+* 3bde0364 3c006000
+* 901e0000 7c00f06c
+* 7c00f7ac 3fc08042
+* 63de4930 3c003800
+* 60000005 901e0000
+* 7c00f06c 7c00f7ac
+* 3bde0054 38004800
+* b01e0000 7c00f06c
+* 7c00f7ac 3bde1698
+* 3c006000 901e0000
+* 7c00f06c 7c00f7ac
+* 3bde7cd4 3c006000
+* 901e0000 7c00f06c
+* 7c00f7ac 3fc0804e
+* 63decd4c 38000000
+* 901e0000 38000001
+* 981f0000 480000dc
+* 3fc08041 63de02e8
+* 3c004182 60000010
+* 901e0000 7c00f06c
+* 7c00f7ac 3bde43d0
+* 3c00c11f 60000120
+* 901e0000 7c00f06c
+* 7c00f7ac 3bde1594
+* 3c003c00 600080be
+* 901e0000 3c006000
+* 6000c8c0 901e0004
+* 7c00f06c 7c00f7ac
+* 3bde0364 3c0093df
+* 60000134 901e0000
+* 7c00f06c 7c00f7ac
+* 3fc08042 63de4930
+* 3c002000 60000007
+* 901e0000 7c00f06c
+* 7c00f7ac 3bde0054
+* 380040a2 b01e0000
+* 7c00f06c 7c00f7ac
+* 3bde1698 3c004182
+* 60000028 901e0000
+* 7c00f06c 7c00f7ac
+* 3bde7cd4 3c004182
+* 60000498 901e0000
+* 7c00f06c 7c00f7ac
+* 38000000 981f0000
+* bbc10008 38210010
+* 7c7f1b78 00000000
+* e2000001 00000000
+
+##################################################
+!Sim Line Visible During Swing [Vamp]
+##################################################
+* 20426004 4bfea151
+* 04426004 60000000
+* c2424718 00000028
+* 9421ff80 7c0802a6
+* 90010084 bc61000c
+* 3fa0804e 63b3ce70
+* 63bd5be4 8bbd0d17
+* 1fbd5204 7fbd9a14
+* 82dd5168 801601c4
+* 2c00000b 4180009c
+* 3ee0804c 62f76b30
+* 3c006000 90170000
+* 7c00b86c 7c00bfac
+* 3af7ffa0 90170000
+* 7c00b86c 7c00bfac
+* 3ee0804c 62f76cd0
+* 3c006000 90170000
+* 7c00b86c 7c00bfac
+* 3af7fed8 90170000
+* 7c00b86c 7c00bfac
+* 7fa3eb78 3c808050
+* 608452ac 3c00804c
+* 60006668 7c0803a6
+* 4e800021 3e008050
+* 6203272c 809d0008
+* 388400b4 620552ac
+* 38c00007 3c008041
+* 60005790 7c0803a6
+* 4e800021 48000054
+* 3ee0804c 62f76b30
+* 3c0040a2 6000000c
+* 90170000 7c00b86c
+* 7c00bfac 3af7ffa0
+* 90170000 7c00b86c
+* 7c00bfac 3ee0804c
+* 62f76cd0 90170000
+* 7c00b86c 7c00bfac
+* 3af7fed8 90170000
+* 7c00b86c 7c00bfac
+* 80010084 7c0802a6
+* 90010084 b861000c
+* 38210080 3d20802d
+* 60000000 00000000
+* e2000001 00000000
+
+##################################################
+!Wind Editor Z Button + C-Stick [Mori]
+##################################################
+* C0000000 00000029
+* 3D808016 618C2B5F
+* 896C0000 2C0B0001
+* 41820008 4800012C
+* 3D80804E 618CCC8F
+* 898C0000 2C0C0010
+* 41820008 48000114
+* 3D60804E 616BCC99
+* 896B0000 2C0B0008
+* 41820020 2C0B0004
+* 41820018 2C0B0001
+* 4182004C 2C0B0002
+* 41820044 480000E4
+* 3D80804D 618CFDF4
+* C12C0000 3D808015
+* 618CE510 C1AC0000
+* ED290372 3D80804E
+* 618C6854 C14C0000
+* 2C0B0008 4182003C
+* 2C0B0004 4182004C
+* 480000A8 3D80804D
+* 618CFDF0 C12C0000
+* 3D80804E 618C6850
+* C14C0000 2C0B0001
+* 41820050 2C0B0002
+* 41820038 4800007C
+* 3D60804D 616BA358
+* C16B0000 FC8A5840
+* 40840050 4800003C
+* 3D60804D 616BA34C
+* C18B0000 FC8A6040
+* 40850040 4800002C
+* 3D60804E 616B3198
+* C16B0000 48000014
+* 3D608015 616BD8D8
+* C18B0000 4800000C
+* ED4A482A 4800001C
+* ED4A4828 48000014
+* FD405890 4800000C
+* FD406090 48000004
+* D14C0000 48000004
+* 4E800020 00000000
+
+##################################################
+!SingDoubs Practice [Vamp]
+##################################################
+* 2A502790 00000100
+* 006cb6c6 00000001
+* e2000001 00000000
+* 28502790 00000100
+* 006cb6c6 00000002
+* e2000001 00000000
+* 006CB6C4 00000010
+
+--------------------------------------------------
+
+##################################################
+# Explanation's
+#
+# Wind/Rain Sim Line
+#	This code allows the player to see the effects of wind and rain with the simulation line by holding the Z button. 
+#	This stacks with the Hook/Slice and Putter Sim Line codes. 	
+#
+# Hook/Slice Simulation Line
+#	This code allows the player to see the effects of hook and slice with the simulation line by holding the Y button and pressing either Left or Right on the DPad. 
+#	This stacks with the Wind/Rain Sim Line code. 	
+#
+# Putter Simulation Line
+#	This code allows the player to see the effects of hook and slice with the simulation line by holding the Y button and pressing either Left or Right on the DPad. 
+#	This stacks with the Wind/Rain Sim Line code.
+#
+# Sim Line Visible During Swing
+#	This code dynamically updates and displays the Sim Line while taking the shot.
+#
+# Wind Editor Z Button + C-Stick
+#	This code allows users to edit wind speed and direction while playing. Works in combination with Sim line codes. 
+#	While holding Z, Left and right on C-stick changes wind direction, Up and down changes wind speed.
+#
+# SingDoubs Practice 
+#	This code allows one player to control two characters in doubles stroke play mode. 
+#	The game will automatically give the second “team” the maximum number of strokes so the player can practice the SingDoubs format uninterrupted. 	
+##################################################

@@ -1,0 +1,38 @@
+############################################################################
+# Mario Golf GFTE01.txt                                                    #
+#                                                                          #
+# Requires GCTRealMate to assemble the GCT, drag this file onto            #
+# GCTRealMate.exe                                                          #
+#                                                                          #
+# GCTRealMate borrowed from Project+ Development Team                      #
+# https://github.com/Project-Plus-Development-Team/GCTRealMate             #
+#                                                                          #
+# Not all codes have been tested or confirmed to work on Wii, nor is       #
+# compatibility between different codes fully documented. If ever unsure   #
+# try adding one code at a time to see which one is causing the issue.     #
+#								           #
+# THERE IS A LIMIT TO HOW MANY LINES OF CODE THE WII CAN HANDLE            #
+# IF THE GAME ISN'T BOOTING OR CRASHING ETC. THEN TURN OFF SOME CODES      #
+#                                                                          #
+############################################################################
+
+#############################################################################
+# Edit the files in "codes/MGTT" to include or exclude certain codes        #
+# Or place a "#" in front of .include to exclude an entire .txt files codes #
+# By default all codes are disabled, manually enable each code you want in  #
+# the .txt files. Enjoy Mario Golf Toadstool Tour! - Iris Flower            #
+#############################################################################
+
+####################################################################################################
+# Codes Source:                                                                                    #
+# https://docs.google.com/document/d/1BBDK7EQ1tFmX6yqxhUH-bIWskibmeRWkHqenrs9HRXc/edit?usp=sharing #
+####################################################################################################
+
+.include MGTT/Gameplay.txt
+.include MGTT/Lie.txt
+.include MGTT/Misc.txt
+.include MGTT/Pin.txt
+.include MGTT/Practice.txt
+.include MGTT/SpecialModes.txt
+
+#.include MGTT/Cheats.txt

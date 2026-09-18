@@ -1,0 +1,210 @@
+############################################################################
+# Place a "!" in front of a codes name to disable it. Remove "!" to enable #
+# For Example: "!XYZ Code [Vamp]" will disable XYZ code                    #
+############################################################################
+
+##########################################
+!Speedup Code [Vamp]
+##########################################
+* 004211D7 00000061
+
+##########################################
+!Allow Duplicate Characters [LHB]
+##########################################
+* 2040D284 7D2A482E
+* 0440D284 3920FFFF
+* 0440D34C 3920FFFF
+* E2000001 00000000
+
+##########################################
+!Allow Give Up on 1st Stroke [LHB]
+##########################################
+* 04477784 38000001
+* 04477870 60000000
+
+##########################################
+!Set Custom Wind Ranges [probably vamp]
+#
+# Unedited code is below, an Example Code ~50-120mph (uses float values 23 and 54) is in proper code area
+#
+# 044DB300 xxxxxxxx
+# 044DB304 xxxxxxxx
+#
+##########################################
+* 044DA34C 41b80000
+* 044DA358 42580000
+
+##########################################
+!Rain Always On [probably vamp]
+##########################################
+* 044E6858 00000001
+
+##########################################
+!Tees display on Scorecard [Vamp]
+##########################################
+* 20018f50 41820010
+* c2018f50 00000027
+* 7c0802a6 9421ffe0
+* 3c60804e 90010024
+* 60646678 80640074
+* 3ca08000 93c10018
+* 60be17b0 2803000d
+* 28830007 93a10014
+* 41820008 4086001c
+* 807e0000 2a830000
+* 41960038 418600d8
+* 40820014 480000d0
+* 807e0000 28030000
+* 418200c4 3c808002
+* 60844c98 7c8903a6
+* 4e800421 38600000
+* 907e0000 48000054
+* 88640000 28030000
+* 41820010 3c604261
+* 6063636b 4800000c
+* 3c604672 60636f6e
+* 3c807400 41820008
+* 38800000 3ca08014
+* 90655414 3c608014
+* 60635414 90830004
+* 807e0004 2c030073
+* 41810010 38630001
+* 907e0004 48000050
+* 3c608002 607d4c98
+* 387d016c 7c6903a6
+* 386001e8 3880002e
+* 38a00048 38c00008
+* 38e00001 39000003
+* 4e800421 63a40064
+* 7c8903a6 38800000
+* 38a00000 38c0000f
+* 38e0000d 907e0000
+* 4e800421 83c10018
+* 83a10014 80010024
+* 38210020 7c0803a6
+* 60000000 00000000
+* e2000001 00000000
+
+##########################################
+!Auto-Save after every hole [Vamp]
+##########################################
+* 0415fa8c 4479c001
+* 0415fa90 4479c001
+* 0415cdac 4479c000
+* 20404208 2c030000
+* c2404208 0000001a
+* 9421ffe0 bf410008
+* 3bdf7260 83be0000
+* 2c1d0000 40820028
+* 7fe3fb78 38800000
+* 3ca08026 60a5bc40
+* 3d808040 618c0a64
+* 7d8803a6 4e800021
+* 83be0000 7fa3eb78
+* 837d0000 819b0008
+* 7d8803a6 4e800021
+* 2c030000 41820070
+* 807d1610 80634364
+* 2c030001 40820044
+* 3f808022 639ca3c8
+* 7f83e378 809d1624
+* 61c5aaab 3d808007
+* 618c27f8 7d8803a6
+* 4e800021 7f83e378
+* 3c808017 608460b0
+* 3d808001 618c4aa8
+* 7d8803a6 4e800021
+* 7fa3eb78 819b0004
+* 7d8803a6 4e800021
+* 38000000 901e0000
+* 4c421182 bb410008
+* 38210020 00000000
+* E2000001 00000000
+
+##########################################
+!Shot Clock [Vamp] 
+##########################################
+* 20469658 80690000
+* 04430b78 60000000
+* c24abd78 00000002
+* 39600000 3800012c
+* 90091744 00000000
+* c2469658 0000000e
+* 7c661b78 3d40804e
+* 614a1744 806a0000
+* 80060024 2c000004
+* 40820054 80e65168
+* 800701c4 2c00000c
+* 41820044 2c030000
+* 41820010 3863ffff
+* 906a0000 48000030
+* 890901bc 39080001
+* 990901bc 3800012c
+* 900a0000 386001fb
+* 3d808001 618c1b88
+* 7d8903a6 4e800421
+* 3860012c 00000000
+* e2000001 00000000
+
+##########################################
+!Transparent Character While Holding Y [Vamp]
+##########################################
+* 2041e7d4 997f51f1
+* c241e7d4 00000004
+* 800901d4 2c00000d
+* 4082000c a1690100
+* 556baffe 997f51f1
+* 60000000 00000000
+* c242470c 0000000d
+* 807f5168 3ca08041
+* 60a43dcc 60a53ff8
+* 800301d4 2c00000d
+* 40820028 38004800
+* b0040000 7c00206c
+* 7c0027ac 38000400
+* b0050002 7c00286c
+* 7c002fac 48000024
+* 38004182 b0040000
+* 7c00206c 7c0027ac
+* 38000c00 b0050002
+* 7c00286c 7c002fac
+* 60000000 00000000
+* e2000001 00000000
+
+--------------------------------------------------
+
+##################################################
+# Explanation's
+#
+# Speedup Code
+#	This code allows golfers to hold A to speed up the shot’s sequence after the ball is hit (but before it comes to rest). 	
+#
+# Allow Duplicate Characters
+#	This code allows a character to be used by more than one golfer during the same round. 	
+#
+# Allow Give Up on 1st Stroke
+#	Normally you're not allowed to do so, now you can! Works in Match Play
+#
+# Set Custom Wind Ranges
+#	Allows use of custom ranges of wind strength.
+#	First line is the lower bound of wind speed
+#	Second line is upper bound of wind speed
+#	Use a float to Hex conversion method to find desired wind values. Float value is calculated in m/s  not mph. 
+#	1 m/s = ~2.2 mph
+#
+# Rain Always On
+#	This code enables the rain effect for every hole.
+#
+# Tees display on Scorecard
+#	This code shows whether it's back or front tees on the scorecard 	
+#
+# Auto-Save after every hole
+#	Auto saves to slot 1 after every hole, very useful in case of a crash during match play!
+#
+# Shot Clock
+#	A 5 second shot clock. If you don't shoot within the time limit, 1 stroke is added.
+#	12c is the time value. 300 frames or 5 seconds. if you want a different value edit all occurrences of 12c in the code 
+#
+# Transparent Character While Holding Y
+#	Use the putter and hold Y to make your character transparent similar to how they'd be when ghosted.
+##################################################
